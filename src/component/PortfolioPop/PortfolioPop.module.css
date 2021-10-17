@@ -1,0 +1,53 @@
+
+
+.zIndex{
+    z-index: 5000 !important;
+    width: 100vw !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.modalDialog{
+    top: 50px !important;
+    max-width: 80% !important;
+}
+.modalContent{
+    border-radius: 1rem !important;
+}
+.divLine{
+    margin: auto;
+    width: 70px;
+    position: relative;
+}
+.divLine i {
+    color: rgb(44, 62, 80); 
+}
+.divLine::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-100%);
+    width: 120px;
+    height: 4px;
+    border-radius: 0.3rem;
+    background-color: rgb(44, 62, 80);
+}
+.divLine::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateX(100%);
+    width: 120px;
+    height: 4px;
+    border-radius: 0.3rem;
+    background-color: rgb(44, 62, 80);
+}
+
+.closex{
+    color: rgb(26, 188, 156) ;
+    font-size: 3rem;
+}
+.btnColor{
+    background-color: rgb(26, 188, 156) !important;
+}

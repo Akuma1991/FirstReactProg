@@ -1,0 +1,67 @@
+.container{
+    padding: 50px 50px ;
+}
+.container h2{
+    font-size: 3rem ;
+    color: rgb(44, 62, 80) ;
+}
+.divLine{
+    margin: auto;
+    width: 70px;
+    position: relative;
+}
+.divLine i {
+    color: rgb(44, 62, 80); 
+}
+.divLine::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-100%);
+    width: 120px;
+    height: 4px;
+    border-radius: 0.3rem;
+    background-color: rgb(44, 62, 80);
+}
+.divLine::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateX(100%);
+    width: 120px;
+    height: 4px;
+    border-radius: 0.3rem;
+    background-color: rgb(44, 62, 80);
+}
+.divHr{
+    background-color: gray;
+    opacity: 0.3;
+    height: 0.5px;
+    margin: 20px 0px;
+}
+.form input{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.form input:focus{
+   box-shadow: none !important;
+}
+.form textarea{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    resize: none;
+}
+.form textarea:focus{
+    box-shadow: none !important;
+ }
+.formBtn{
+    background-color: rgb(26, 188, 156);
+    height: 60px;
+    width: 100px;
+    font-size: 1.2rem;
+}
+.name{
+    display: none;
+}

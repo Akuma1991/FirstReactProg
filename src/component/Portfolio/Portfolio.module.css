@@ -1,0 +1,59 @@
+.container{
+    padding: 50px 50px ;
+}
+.container h2{
+    font-size: 3rem ;
+    color: rgb(44, 62, 80) ;
+}
+.container img , .imgContainer , .imgLayer {
+    border-radius: 10px ;
+    cursor: pointer;
+}
+.imgLayer{
+    background-color: rgb(26, 188, 156);
+    opacity: 0.9;
+    transition:  all 1s ;
+    display: none;
+}
+.imgContainer:hover .imgLayer{
+    display: flex;
+}
+.imgLayer i{
+    font-size: 3.5rem;
+}
+.divLine{
+    margin: auto;
+    width: 70px;
+    position: relative;
+}
+.divLine i {
+    color: rgb(44, 62, 80); 
+}
+.divLine::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-100%);
+    width: 120px;
+    height: 4px;
+    border-radius: 0.3rem;
+    background-color: rgb(44, 62, 80);
+}
+.divLine::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateX(100%);
+    width: 120px;
+    height: 4px;
+    border-radius: 0.3rem;
+    background-color: rgb(44, 62, 80);
+}
+.portfolio{
+    box-sizing: border-box;
+}
+.PortfolioPop{
+    display: none;
+}
