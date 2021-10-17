@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/FirstReactProg/static/css/main.69d2daf0.chunk.css",
+    "main.js": "/FirstReactProg/static/js/main.49d83683.chunk.js",
+    "main.js.map": "/FirstReactProg/static/js/main.49d83683.chunk.js.map",
+    "runtime-main.js": "/FirstReactProg/static/js/runtime-main.789c8c44.js",
+    "runtime-main.js.map": "/FirstReactProg/static/js/runtime-main.789c8c44.js.map",
+    "static/css/2.b0641794.chunk.css": "/FirstReactProg/static/css/2.b0641794.chunk.css",
+    "static/js/2.d235fb53.chunk.js": "/FirstReactProg/static/js/2.d235fb53.chunk.js",
+    "static/js/2.d235fb53.chunk.js.map": "/FirstReactProg/static/js/2.d235fb53.chunk.js.map",
+    "index.html": "/FirstReactProg/index.html",
+    "static/css/2.b0641794.chunk.css.map": "/FirstReactProg/static/css/2.b0641794.chunk.css.map",
+    "static/css/main.69d2daf0.chunk.css.map": "/FirstReactProg/static/css/main.69d2daf0.chunk.css.map",
+    "static/js/2.d235fb53.chunk.js.LICENSE.txt": "/FirstReactProg/static/js/2.d235fb53.chunk.js.LICENSE.txt",
+    "static/media/avataaars.aa9aff02.svg": "/FirstReactProg/static/media/avataaars.aa9aff02.svg",
+    "static/media/cabin.png": "/FirstReactProg/static/media/cabin.44173302.png",
+    "static/media/cake.png": "/FirstReactProg/static/media/cake.65544730.png",
+    "static/media/circus.png": "/FirstReactProg/static/media/circus.494a4a91.png",
+    "static/media/all.min.css": "/FirstReactProg/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/game.png": "/FirstReactProg/static/media/game.a940b57a.png",
+    "static/media/safe.png": "/FirstReactProg/static/media/safe.01792c0b.png",
+    "static/media/submarine.png": "/FirstReactProg/static/media/submarine.48c9704c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.789c8c44.js",
+    "static/css/2.b0641794.chunk.css",
+    "static/js/2.d235fb53.chunk.js",
+    "static/css/main.69d2daf0.chunk.css",
+    "static/js/main.49d83683.chunk.js"
+  ]
+}
