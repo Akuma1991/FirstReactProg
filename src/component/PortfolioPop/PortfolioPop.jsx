@@ -25,7 +25,7 @@ export default class PortfolioPop extends Component {
         <div>
 
           <div className={`modal fade d-block opacity-100 ${style.zIndex}`} id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className={`modal-dialog ${style.modalDialog} `}>
+            <div className={`modal-dialog  m-auto ${style.modalDialog} `}>
               <div className={`modal-content ${style.modalContent}`}>
                 <div className="modal-header border-bottom-0">
                   <button type="button" className="btn btn-transparent ms-auto btnClose" data-bs-dismiss="modal" aria-label="Close" >

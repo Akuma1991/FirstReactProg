@@ -9,6 +9,7 @@
 .modalDialog{
     top: 50px !important;
     max-width: 80% !important;
+
 }
 .modalContent{
     border-radius: 1rem !important;
@@ -50,4 +51,13 @@
 }
 .btnColor{
     background-color: rgb(26, 188, 156) !important;
+}
+
+
+@media screen and(max-width:558px) {
+    .modalDialog{
+        margin: auto !important;
+    }
+   
+    
 }

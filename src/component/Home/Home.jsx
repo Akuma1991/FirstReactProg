@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import NavBar from '../NavBar/NavBar'
 import style from './Home.module.css'
 import homeImage from './images/avataaars.svg';
 
@@ -10,8 +9,8 @@ export default class Home extends Component {
         return (
             <>
                 <section className={style.home}>
-                    <NavBar />
-                    <div className="d-flex flex-column justify-content-end align-items-center h-100">
+                    
+                    <div className="d-flex flex-column justify-content-center align-items-center h-100">
                         <div className="text-center h-75">
                             <div className="mb-4">
                                 <img src={homeImage} className={`${style.homeImg}`} alt="" />
